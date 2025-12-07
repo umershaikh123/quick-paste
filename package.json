@@ -1,7 +1,14 @@
 {
-  "name": "copy-cat",
-  "displayName": "copy-cat",
-  "description": "",
+  "name": "quick-paste",
+  "displayName": "Quick Paste",
+  "description": "Instantly copy file contents to clipboard with one click from the editor toolbar",
+  "icon": "logo.jpg",
+  "publisher": "umershaikh123",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umershaikh123/quick-paste"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.106.1"
@@ -14,10 +21,24 @@
   "contributes": {
     "commands": [
       {
-        "command": "copy-cat.helloWorld",
+        "command": "quick-paste.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "extension.copyCurrentFile",
+        "title": "Copy File Content",
+        "icon": "$(copy)"
       }
-    ]
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "extension.copyCurrentFile",
+          "group": "navigation",
+          "when": "editorTextFocus"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
