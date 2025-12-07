@@ -69,10 +69,13 @@ Or click the "Install" button on the [Marketplace page](https://marketplace.visu
 ## Usage
 
 1. Open any file in VS Code
-2. Look for the copy icon (📋) in the top-right editor toolbar
-3. Click the icon
-4. Your file contents are now copied to clipboard!
-5. A notification will confirm: "File copied!"
+2. **Important**: Make sure the file is **active** (double-click the file tab to activate it - single-clicking only previews the file)
+3. Look for the copy icon (📋) in the top-right editor toolbar
+4. Click the icon
+5. Your file contents are now copied to clipboard!
+6. A notification will confirm: "File copied!"
+
+> **💡 Tip**: The copy button only appears when a file is **fully active**. In VS Code, single-clicking a file opens it in preview mode (italic tab title), while double-clicking makes it active (normal tab title). You need to double-click or make edits to activate the file and see the copy button.
 
 ### Keyboard Shortcut (Optional)
 
