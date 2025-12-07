@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/umershaikh123/quick-paste"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.106.1"
   },
