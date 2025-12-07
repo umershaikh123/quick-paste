@@ -12,6 +12,12 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=umershaikh123.quick-paste">
     <img src="https://img.shields.io/visual-studio-marketplace/v/umershaikh123.quick-paste?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Version">
   </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=umershaikh123.quick-paste">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/umershaikh123.quick-paste?style=flat-square&label=Installs&logo=visual-studio-code" alt="Installs">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=umershaikh123.quick-paste">
+    <img src="https://img.shields.io/visual-studio-marketplace/d/umershaikh123.quick-paste?style=flat-square&label=Downloads&logo=visual-studio-code" alt="Downloads">
+  </a>
   <a href="https://github.com/umershaikh123/quick-paste">
     <img src="https://img.shields.io/github/license/umershaikh123/quick-paste?style=flat-square" alt="License">
   </a>
@@ -39,12 +45,18 @@ _See Quick Paste in action - one click and your file is copied!_
 
 ## Installation
 
+**Quick Paste is now live on the VS Code Marketplace!** 🎉
+
+[📦 Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=umershaikh123.quick-paste)
+
 ### From VS Code Marketplace
 
 1. Open VS Code
 2. Press `Ctrl+P` (or `Cmd+P` on Mac)
 3. Type: `ext install umershaikh123.quick-paste`
 4. Press Enter
+
+Or click the "Install" button on the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=umershaikh123.quick-paste)
 
 ### From GitHub
 
@@ -117,8 +129,13 @@ This extension is licensed under the [MIT License](LICENSE).
 
 ## Support
 
+- **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=umershaikh123.quick-paste)
 - **Issues**: [GitHub Issues](https://github.com/umershaikh123/quick-paste/issues)
 - **Repository**: [GitHub](https://github.com/umershaikh123/quick-paste)
+
+### For Publishers/Developers
+
+- **Extension Hub**: [Manage Extension](https://marketplace.visualstudio.com/manage/publishers/umershaikh123/extensions/quick-paste/hub)
 
 ---
 
